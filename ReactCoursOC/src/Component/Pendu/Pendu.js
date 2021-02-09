@@ -32,7 +32,7 @@ class Pendu extends Component {
     };
 
     getRecord() {
-        axios.get(`http://localhost:3000/api/record/`)
+        axios.get(`http://localhost:3001/api/record/`)
             .then(res => {
                 const records = res.data;
                 this.setState({ records });
@@ -77,7 +77,7 @@ class Pendu extends Component {
         const { name, nbVie } = this.state;
         event.preventDefault();
 
-        axios.post(`http://localhost:3000/api/record/`, { name, nbVie })
+        axios.post(`http://localhost:3001/api/record/`, { name, nbVie })
             .then(res => {
                 console.log(res);
                 console.log(res.data);
