@@ -1,0 +1,30 @@
+.Clavier {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: auto;
+  user-select: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  display: block;
+  margin: auto;
+
+}
+
+article {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+
